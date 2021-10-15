@@ -1,21 +1,21 @@
 package com.zekun.rest.webservices.restfulwebservices;
 
 public class HelloWorldBean {
-    private String name;
+    private String message;
 
-    public HelloWorldBean(String name) {
-        this.name = name;
+    public HelloWorldBean(String message) {
+        this.message = message;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String message) {
+        this.message = message;
     }
 
     public String getName() {
-        return name;
+        return message;
     }
     @Override
     public String toString() {
-        return "HelloWorldBean[name = " + name + "]";
+        return "HelloWorldBean[message = " + message + "]";
     }
 }
